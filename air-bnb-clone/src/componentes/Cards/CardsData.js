@@ -2,7 +2,7 @@ import image1 from '../imagens/image1.png'
 import image2 from '../imagens/image2.png'
 import image3 from '../imagens/image3.png'
 
-export default [
+export default CadsData = [
     {
         id: 1,
         title: "Life Lessons with Katie Zaferes",
