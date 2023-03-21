@@ -44,13 +44,13 @@ function Form() {
             <div className="form">
                 <input className="form-input" name='textoSuperior' onChange={handleChange} placeholder="Texto superior" type='text' />
                 <input className="form-input" name='textoInferior' onChange={handleChange} placeholder="Texto inferior" type='text' />
-                <button onClick={gerarImagemMeme} className="form-button" type="button"> Nova imagem de meme 🖼</button>
-            </div>
+                <button onClick={gerarImagemMeme} className="form-button" type="button"> Nova imagem de meme </button>
+            </div>         
             <div className='meme-div'>
-                <img className='meme-img' src={imagem} alt="HUE HUE HUE" />
-                {meme.textoSuperior && <p className='meme-img-text top' >{meme.textoSuperior}</p>}
-                {meme.textoInferior && <p className='meme-img-text bottom'>{meme.textoInferior}</p>}
-            </div>
+                {meme.textoSuperior && <span className='meme-img-text top' >{meme.textoSuperior}</span>} 
+                <img className='meme-img' src={imagem} alt="HUE HUE HUE" />    
+                {meme.textoInferior && <span className='meme-img-text bottom'>{meme.textoInferior}</span>}      
+            </div> 
         </main>
     )
 }
