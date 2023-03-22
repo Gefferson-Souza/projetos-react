@@ -45,7 +45,7 @@ function App() {
     }))
   }
 
-  const [tenzies, setTenzies] = useState(true)
+  const [tenzies, setTenzies] = useState(false)
 
   useEffect(() => {
     const allHeld = dieNum.every(die => die.isHeld)
