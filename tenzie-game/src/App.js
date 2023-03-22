@@ -61,9 +61,6 @@ function App() {
     setDieNums(allNewDice())
   }
 
-  
-
-
   return (
     <main className="container">
       <h1 className='title'>TENZIE!</h1>
@@ -73,8 +70,10 @@ function App() {
         </div>
       </div>
       <button className='btn' onClick={rollDye} type='button'>ROLL!!!</button>
-      {tenzies && <h3 class="animate-charcter top">Te Amo!</h3>}
-      {tenzies && <h3 class="animate-charcter bottom">Meu Amor!</h3>}
+      <div className='win'>
+        {tenzies && <h3 class="animate-charcter top">You Win!</h3>}
+        {tenzies && <h3 class="animate-charcter bottom">Congratulations!</h3>}
+      </div>
       {tenzies && <button type='button' className='btn-reiniciar' onClick={reiniciar}>JOGAR NOVAMENTE</button>}
       {tenzies && <ReactConfetti />}
     </main>
