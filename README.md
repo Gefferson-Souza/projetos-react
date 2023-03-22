@@ -8,11 +8,11 @@ https://gefferson-projeto-praticando-react-2.netlify.app/
 ### For /projeto-meme    Build memes
 https://gefferson-portifolio-projeto-meme.netlify.app/
 
-### For /tenzie-game
+### For /tenzie-game     A simple but nice game!
 https://gefferson-projeto-tenzie-game.netlify.app/
 
 
-## Static pages, the projects when i was stating learning react.
+## Static pages, this projects were made when i was starting to learning react.
 
 #### Links
 
